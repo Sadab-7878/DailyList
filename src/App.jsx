@@ -8,7 +8,7 @@ function App() {
 
   const [todo, setTodo] = useState("")
   const [todos, setTodos] = useState([])
-  const [showFinished, setshowFinished] = useState(true)
+  const [showFinished, setshowFinished] = useState(false)
 
 
   // get todos from localStorage 
